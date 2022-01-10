@@ -19,6 +19,6 @@ y = [get_P(i) for i in x]
 print(y)
 plt.plot(x, y, color='green', marker='o', linestyle='solid')
 plt.title('Question 2')
-plt.xlabel('thickness')
-plt.ylabel('roll Force')
+plt.xlabel('thickness (mm)')
+plt.ylabel('Poewer (kW)')
 plt.show()
