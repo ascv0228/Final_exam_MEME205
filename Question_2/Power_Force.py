@@ -23,7 +23,7 @@ def get_F(t):
     h_avg = (10+t)/2
     F = L*w*Y_avg_bar*(1+mu*L/2/h_avg)
     return F
-x = [8, 6, 3, 2] + [i*0.001 for i in range(1, 1000, 5)]
+x = [8, 6, 3, 2] 
 
 Fs = [get_F(i) for i in x]
 y = [get_P(i) for i in x]
