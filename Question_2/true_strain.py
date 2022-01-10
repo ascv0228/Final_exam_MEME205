@@ -9,6 +9,6 @@ y = [math.log(l/i) for i in x]
 print(y)
 plt.plot(x, y, color='green', marker='o', linestyle='solid', label= "true strain")
 plt.title('Question 2')
-plt.xlabel('thickness')
+plt.xlabel('thickness (mm)')
 plt.ylabel('true strain: ln(l / lo)')
 plt.show()
